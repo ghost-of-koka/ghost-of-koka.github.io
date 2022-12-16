@@ -4,7 +4,7 @@
     "src": "src/routes/+layout.css"
   },
   "src/routes/about/+page.svelte": {
-    "file": "_app/immutable/components/pages/about/_page.svelte-c614350f.js",
+    "file": "_app/immutable/components/pages/about/_page.svelte-25ac33a9.js",
     "src": "src/routes/about/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -13,6 +13,14 @@
   },
   "_index-497106a8.js": {
     "file": "_app/immutable/chunks/index-497106a8.js",
+    "imports": [
+      "_index-dc866d43.js"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "_app/immutable/components/pages/_error.svelte-7f5cb4d2.js",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
     "imports": [
       "_index-dc866d43.js"
     ]
@@ -28,19 +36,11 @@
   "__layout-c51e0381.js": {
     "file": "_app/immutable/chunks/_layout-c51e0381.js"
   },
-  "src/routes/+error.svelte": {
-    "file": "_app/immutable/components/pages/_error.svelte-7f5cb4d2.js",
-    "src": "src/routes/+error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-dc866d43.js"
-    ]
-  },
   "_index-dc866d43.js": {
     "file": "_app/immutable/chunks/index-dc866d43.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-e8bcb91c.js",
+    "file": "_app/immutable/start-eba7aa61.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -66,6 +66,15 @@
   "__page-ed77219c.js": {
     "file": "_app/immutable/chunks/_page-ed77219c.js"
   },
+  "src/routes/survival/aoi/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/aoi/_page.svelte-0c0ff60f.js",
+    "src": "src/routes/survival/aoi/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-dc866d43.js",
+      "_Survival-e06a87b0.js"
+    ]
+  },
   "src/routes/players/+page.svelte": {
     "file": "_app/immutable/components/pages/players/_page.svelte-d666dc1f.js",
     "src": "src/routes/players/+page.svelte",
@@ -74,13 +83,13 @@
       "_index-dc866d43.js"
     ]
   },
-  "src/routes/survival/aoi/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/aoi/_page.svelte-5d39233a.js",
-    "src": "src/routes/survival/aoi/+page.svelte",
+  "src/routes/survival/bas/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/bas/_page.svelte-f0f42a06.js",
+    "src": "src/routes/survival/bas/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
+      "_Survival-e06a87b0.js"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
@@ -92,22 +101,148 @@
       "src/routes/+layout.svelte"
     ]
   },
-  "src/routes/survival/sow/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/sow/_page.svelte-4b6b4c6d.js",
-    "src": "src/routes/survival/sow/+page.svelte",
+  "src/routes/survival/bits/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/bits/_page.svelte-8b35607e.js",
+    "src": "src/routes/survival/bits/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
+      "_Survival-e06a87b0.js"
+    ]
+  },
+  "src/routes/survival/nms/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/nms/_page.svelte-bce4a638.js",
+    "src": "src/routes/survival/nms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-dc866d43.js",
+      "_Survival-e06a87b0.js"
     ]
   },
   "src/routes/survival/taa/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/taa/_page.svelte-422e1e4c.js",
+    "file": "_app/immutable/components/pages/survival/taa/_page.svelte-7831b0c8.js",
     "src": "src/routes/survival/taa/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
+      "_Survival-e06a87b0.js"
+    ]
+  },
+  "src/routes/players/+page.js": {
+    "file": "_app/immutable/modules/pages/players/_page.js-4ed993c7.js",
+    "src": "src/routes/players/+page.js",
+    "isEntry": true
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-9aa0c5be.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/bas/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/9.js": {
+    "file": "_app/immutable/chunks/9-7b6bed81.js",
+    "src": ".svelte-kit/generated/nodes/9.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/nms/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/10.js": {
+    "file": "_app/immutable/chunks/10-731da7c4.js",
+    "src": ".svelte-kit/generated/nodes/10.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/sov/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-dc77422d.js",
+    "src": ".svelte-kit/generated/nodes/8.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/bits/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/11.js": {
+    "file": "_app/immutable/chunks/11-531fca9b.js",
+    "src": ".svelte-kit/generated/nodes/11.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/sow/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/12.js": {
+    "file": "_app/immutable/chunks/12-a97206ac.js",
+    "src": ".svelte-kit/generated/nodes/12.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/survival/taa/+page.svelte"
+    ]
+  },
+  "src/routes/+layout.js": {
+    "file": "_app/immutable/modules/pages/_layout.js-622f3d3c.js",
+    "src": "src/routes/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-c51e0381.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-e1a3cc9f.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/dictionary/+page.svelte"
+    ]
+  },
+  "_Survival-e06a87b0.js": {
+    "file": "_app/immutable/chunks/Survival-e06a87b0.js",
+    "imports": [
+      "_index-dc866d43.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-67d2b99c.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-669c4956.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+error.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-3022036a.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/about/+page.svelte"
+    ]
+  },
+  "src/routes/survival/sow/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/sow/_page.svelte-66dd03c3.js",
+    "src": "src/routes/survival/sow/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-dc866d43.js",
+      "_Survival-e06a87b0.js"
+    ]
+  },
+  "src/routes/survival/sov/+page.svelte": {
+    "file": "_app/immutable/components/pages/survival/sov/_page.svelte-a20eb5ff.js",
+    "src": "src/routes/survival/sov/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-dc866d43.js",
+      "_Survival-e06a87b0.js"
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
@@ -119,141 +254,12 @@
       "src/routes/players/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-8b62ee33.js",
-    "src": ".svelte-kit/generated/nodes/3.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/about/+page.svelte"
-    ]
-  },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-0fbaa8b0.js",
+    "file": "_app/immutable/chunks/6-a2b19f63.js",
     "src": ".svelte-kit/generated/nodes/6.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/survival/aoi/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-669c4956.js",
-    "src": ".svelte-kit/generated/nodes/1.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+error.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-67d2b99c.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+page.svelte"
-    ]
-  },
-  "src/routes/survival/bas/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/bas/_page.svelte-92f5c4a8.js",
-    "src": "src/routes/survival/bas/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-e1a3cc9f.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/dictionary/+page.svelte"
-    ]
-  },
-  "src/routes/survival/bits/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/bits/_page.svelte-67aa0f9a.js",
-    "src": "src/routes/survival/bits/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/12.js": {
-    "file": "_app/immutable/chunks/12-a97ffbf6.js",
-    "src": ".svelte-kit/generated/nodes/12.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/taa/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/10.js": {
-    "file": "_app/immutable/chunks/10-fc65cc51.js",
-    "src": ".svelte-kit/generated/nodes/10.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/sov/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/11.js": {
-    "file": "_app/immutable/chunks/11-b97fd6b5.js",
-    "src": ".svelte-kit/generated/nodes/11.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/sow/+page.svelte"
-    ]
-  },
-  "src/routes/+layout.js": {
-    "file": "_app/immutable/modules/pages/_layout.js-622f3d3c.js",
-    "src": "src/routes/+layout.js",
-    "isEntry": true,
-    "imports": [
-      "__layout-c51e0381.js"
-    ]
-  },
-  "src/routes/players/+page.js": {
-    "file": "_app/immutable/modules/pages/players/_page.js-4ed993c7.js",
-    "src": "src/routes/players/+page.js",
-    "isEntry": true
-  },
-  ".svelte-kit/generated/nodes/8.js": {
-    "file": "_app/immutable/chunks/8-991cc783.js",
-    "src": ".svelte-kit/generated/nodes/8.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/bits/+page.svelte"
-    ]
-  },
-  "src/routes/survival/nms/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/nms/_page.svelte-ee99c8a0.js",
-    "src": "src/routes/survival/nms/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
-    ]
-  },
-  "src/routes/survival/sov/+page.svelte": {
-    "file": "_app/immutable/components/pages/survival/sov/_page.svelte-22bf88d8.js",
-    "src": "src/routes/survival/sov/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-dc866d43.js",
-      "_Survival-1dc7cf43.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/9.js": {
-    "file": "_app/immutable/chunks/9-a0658e68.js",
-    "src": ".svelte-kit/generated/nodes/9.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/nms/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/7.js": {
-    "file": "_app/immutable/chunks/7-aebe2331.js",
-    "src": ".svelte-kit/generated/nodes/7.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/survival/bas/+page.svelte"
     ]
   },
   "src/routes/dictionary/+page.svelte": {
@@ -263,12 +269,6 @@
     "imports": [
       "_index-dc866d43.js",
       "_index-497106a8.js"
-    ]
-  },
-  "_Survival-1dc7cf43.js": {
-    "file": "_app/immutable/chunks/Survival-1dc7cf43.js",
-    "imports": [
-      "_index-dc866d43.js"
     ]
   },
   "src/routes/+layout.svelte": {
