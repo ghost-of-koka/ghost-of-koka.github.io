@@ -4,23 +4,32 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="../favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="../_app/immutable/start-04356306.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-95ccc8b9.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-a5ce1f54.js">
+		
+		<link rel="modulepreload" href="../_app/immutable/entry/start.j8gkOI1B.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.A5asZbX5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.kZgS6KFQ.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.NHmfMHxh.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.96OClKxk.js">
 	</head>
 	<body data-sveltekit-preload-data="hover" class="bg-white dark:bg-gray-800">
 		<div style="display: contents">
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "../_app/immutable/start-04356306.js";
+			<script>
+				{
+					__sveltekit_1b6p48i = {
+						base: new URL("..", location).pathname.slice(0, -1)
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				version: "1706531235513"
-			});
-		</script></div>
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../_app/immutable/entry/start.j8gkOI1B.js"),
+						import("../_app/immutable/entry/app.NHmfMHxh.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
 		<script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
 	</body>
 </html>
